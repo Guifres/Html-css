@@ -43,8 +43,6 @@ header > h1 {
 
 
 header > p {
-    color: white;
-    text-align: center;
     padding-bottom: 50px;
 
 }
@@ -66,6 +64,7 @@ section {
     padding-left: 30px;
     font-family: var(--fonte_secundaria);
     font-size: 5vw;
+    
 
 }
 
@@ -80,7 +79,8 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.241);
 
 }
